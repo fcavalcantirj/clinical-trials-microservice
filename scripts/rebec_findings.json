@@ -1,0 +1,16 @@
+{
+  "date": "2025-12-14T16:05:46.741464",
+  "endpoints_tested": [
+    "http://www.ensaiosclinicos.gov.br/rg/all/xml/ictrp",
+    "https://ensaiosclinicos.gov.br/rg/all/xml/ictrp",
+    "http://ensaiosclinicos.gov.br/rg/all/xml/ictrp"
+  ],
+  "accessible": false,
+  "working_url": null,
+  "recommendations": [
+    "ReBEC XML export endpoint appears to be unavailable (404 errors)",
+    "May need to contact ReBEC administrators for current API access",
+    "Alternative: Use web scraping or manual data export",
+    "Consider WHO ICTRP as alternative source for Brazilian trials"
+  ]
+}
