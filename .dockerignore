@@ -1,0 +1,49 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+server
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# Git
+.git/
+.gitignore
+
+# Documentation (optional - keep if you want)
+# *.md
+# README.md
+
+# Scripts (optional - remove if you don't need them in container)
+# scripts/
+
+# Research docs (optional - remove if not needed)
+# research/

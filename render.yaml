@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: clinical-trials-microservice
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    region: oregon
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: CACHE_ENABLED
+        value: "true"
+      - key: CACHE_TTL
+        value: "6h"
+      - key: LOG_LEVEL
+        value: "info"
+      - key: LOG_FORMAT
+        value: "json"
+
